@@ -9,6 +9,14 @@ for i in range(r):
         new_arr.append(elem)
     arr.append(new_arr)
 
+
+for i in range(r):
+    new_arr = []
+    for n in range(c):
+        elem = int(input("Элемент: "))
+        new_arr.append(elem)
+    arr.append(new_arr)
+
 print(arr)
 
 max_els_index = []

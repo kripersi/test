@@ -1,6 +1,10 @@
 r = int(input("Кол-во элементов: "))
 arr = []
 
+print(432)
+for i in range(13):
+    print(f'{"*" * i}')
+
 for i in range(r):
     elem = int(input("Элемент: "))
     arr.append(elem)
